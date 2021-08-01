@@ -1,8 +1,16 @@
+import Head from 'next/head'
+
 const Test = () => {
     return (
-        <div>
-            <h1>Test</h1>
-        </div>
+        <>
+            <Head>
+                <title>Ninja List | Test</title>
+                <meta name="keyword" content="ninjas" />
+            </Head>
+            <div>
+                <h1>Test</h1>
+            </div>
+        </>
     );
 }
 
